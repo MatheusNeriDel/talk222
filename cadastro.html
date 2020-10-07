@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TALK 222</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><h1>TALK 222</h1></li>
+            <li><a href="">SOBRE</a></li>
+            <li><a href="">CADASTRE-SE</a></li>
+            <li><a href="">SIGN IN</a></li>
+            <li><a href="">INDIQUE</a></li>
+            <li><a href="">FALE CONOSCO</a></li>
+            <li><a href="" class="fa fa-facebook"></a></li>
+            <li><a href="" class="fa fa-twitter"></a></li>
+            <li><a href="" class="fa fa-google"></a></li>
+        </ul>
+    </div>
+    <div class="left-container">
+        <div>
+            <h1>Se cadastrar é muito fácil e rápido</h1>
+            <h3>Só vai levar um minutinho</h3>
+            <form name="cadastro" onsubmit="return validarFormulario()">
+                <input type="text" placeholder="NOME" required>
+                <input type="text" placeholder="EMAIL" required>
+                <input type="text" placeholder="TELEFONE">
+                <input  name="senha" type="password" placeholder="CRIE UMA SENHA COM NO MINÍMO 8 CARACTERES" required>
+                <input name="confirmasenha" type="password" placeholder="REPITA A SENHA" required>
+                <input type="submit" value="CONFIRMAR">
+            </form>
+            <h3>Após a confirmação será enviado um link de ativação na conta do seu email</h3>
+        </div>
+    </div>
+    <div class="right-container">
+        <img src="img/cel.png">
+    </div>
+</body>
+</html>
