@@ -26,13 +26,13 @@
         <div>
             <h1>Se cadastrar é muito fácil e rápido</h1>
             <h3>Só vai levar um minutinho</h3>
-            <form>
-                <input type="text" placeholder="NOME">
-                <input type="text" placeholder="EMAIL:">
-                <input type="text" placeholder="TELEFONE:">
-                <input type="text" placeholder="CRIE UMA SENHA COM NO MINÍMO 8 CARACTERES:">
-                <input type="text" placeholder="REPITA A SENHA">
-                <input type="button" value="CONFIRMAR">
+            <form name="cadastro" onsubmit="return validarFormulario()">
+                <input type="text" placeholder="NOME" required>
+                <input type="text" placeholder="EMAIL" required>
+                <input type="text" placeholder="TELEFONE">
+                <input  name="senha" type="password" placeholder="CRIE UMA SENHA COM NO MINÍMO 8 CARACTERES" required>
+                <input name="confirmasenha" type="password" placeholder="REPITA A SENHA" required>
+                <input type="submit" value="CONFIRMAR">
             </form>
             <h3>Após a confirmação será enviado um link de ativação na conta do seu email</h3>
         </div>
