@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    <div class="navbar">
+    <header class="navbar">
         <ul>
             <li><h1>TALK 222</h1></li>
             <li><a href="">SOBRE</a></li>
@@ -21,24 +21,25 @@
             <li><a href="" class="fa fa-twitter"></a></li>
             <li><a href="" class="fa fa-google"></a></li>
         </ul>
-    </div>
-    <div class="left-container">
+    </header>
+    <content class="left-container">
         <div>
             <h1>Se cadastrar é muito fácil e rápido</h1>
             <h3>Só vai levar um minutinho</h3>
+            <p>Campos obrigatŕios estão marcados com *</p>
             <form name="cadastro" onsubmit="return validarFormulario()">
-                <input type="text" placeholder="NOME" required>
-                <input type="text" placeholder="EMAIL" required>
-                <input type="text" placeholder="TELEFONE">
-                <input  name="senha" type="password" placeholder="CRIE UMA SENHA COM NO MINÍMO 8 CARACTERES" required>
-                <input name="confirmasenha" type="password" placeholder="REPITA A SENHA" required>
+                <input name="nome" type="text" placeholder="NOME*" required>
+                <input name="email" type="text" placeholder="EMAIL*" required>
+                <input name="telefone" type="text" placeholder="TELEFONE">
+                <input name="senha" type="password" placeholder="CRIE UMA SENHA COM NO MINÍMO 8 CARACTERES*" required>
+                <input name="confirmasenha" type="password" placeholder="REPITA A SENHA*" required>
                 <input type="submit" value="CONFIRMAR">
             </form>
             <h3>Após a confirmação será enviado um link de ativação na conta do seu email</h3>
         </div>
-    </div>
-    <div class="right-container">
+    </content>
+    <aside class="right-container">
         <img src="img/cel.png">
-    </div>
+    </aside>
 </body>
 </html>
