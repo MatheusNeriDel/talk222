@@ -61,7 +61,6 @@ li a {
   font-family: Roboto-Regular;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   color: #eeeeee;
 }
@@ -208,6 +207,13 @@ p{
   border-radius: 50px;
   height: 80%;
   width: 100%;
+  overflow: hidden;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
 
 .chatBox{
@@ -219,12 +225,19 @@ p{
   border-radius: 50px;
 }
 
+.chatBox input:focus{
+  border-width: 0px;
+}
+
 .profile{
   display: flex;
   height: 9vh;
   background-color: #EEE;
   border-radius: 40px;
   padding-left: 5vh;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .profileInfo{
@@ -238,6 +251,7 @@ p{
 
 .profile h5{
   color: black;
+  margin-bottom: 5%;
 }
 
 .profile img{
@@ -248,4 +262,25 @@ p{
   border-style: solid;
   border-color: black;
   border-width: 1px;
+}
+
+.chatMessages h4{
+  margin-left: 3%;
+  margin-top: 3%;
+  color: black;
+  font-family: Roboto-Regular;
+}
+
+.chatMessages h4 span { 
+  background-color:#EEE;
+  padding: 1%;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+}
+
+.selfMessage{
+  text-align: right;
+  margin-right: 3%;
 }
