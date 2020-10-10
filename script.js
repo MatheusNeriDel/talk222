@@ -64,5 +64,47 @@ function validarFormCadastro() {
 }
 
 /* validação do formulário de login */
+function validarFormLogin() {
+  var email = document.forms["login"]["email"].value;
+  var senha = document.forms["login"]["senha"].value;
 
-/* validação do formulário de mensagem */
+  limparMensagens();
+
+  if (!validarEmail(email)) {
+    mostrarMensagem("msgemail", "O e-mail não é válido");
+    return false;
+  } else if (!validarSenha(senha)) {
+    mostrarMensagem("msgsenha", "A senha deve ter pelo menos 8 caracteres");
+    return false;
+  }
+
+  return true;
+}
+
+/* validação do formulário de feedback */
+function validarFormFeedback() {
+  var email = document.forms["feedback"]["email"].value;
+
+  limparMensagens();
+
+  if (!validarEmail(email)) {
+    mostrarMensagem("msgemail", "O e-mail não é válido");
+    return false;
+  }
+
+  return true;
+}
+
+/* validação do formulário de indicacao */
+function validarFormIndicacao() {
+  var email = document.forms["indique"]["email"].value;
+
+  limparMensagens();
+
+  if (!validarEmail(email)) {
+    mostrarMensagem("msgemail", "O e-mail não é válido");
+    return false;
+  }
+
+  return true;
+}

@@ -25,38 +25,38 @@
         <li><a href="" class="fa fa-google"></a></li>
       </ul>
     </header>
-    <content class="left-container">
-      <div>
+    <section class="left-container">
+      <header>
         <h1>Se cadastrar é muito fácil e rápido</h1>
         <h3>Só vai levar um minutinho</h3>
-        <p>Campos obrigatórios estão marcados com *</p>
-        <form name="cadastro" class="cadastroForm" onsubmit="return validarFormCadastro()">
-          <input name="nome" type="text" placeholder="NOME *" required />
-          <div id="msgemail" class="msg"></div>
-          <input name="email" type="text" placeholder="EMAIL *" required />
-          <input name="telefone" type="text" placeholder="TELEFONE" />
-          <div id="msgsenha" class="msg"></div>
-          <input
-            name="senha"
-            type="password"
-            placeholder="CRIE UMA SENHA COM NO MINÍMO 8 CARACTERES *"
-            required
-          />
-          <div id="msgconfsenha" class="msg"></div>
-          <input
-            name="confirmasenha"
-            type="password"
-            placeholder="REPITA A SENHA *"
-            required
-          />
-          <input type="submit" value="CONFIRMAR" />
-        </form>
-        <h3>
-          Após a confirmação será enviado um link de ativação na conta do seu
-          e-mail
-        </h3>
-      </div>
-    </content>
+      </header>
+      <p>Campos obrigatórios estão marcados com *</p>
+      <form name="cadastro" onsubmit="return validarFormCadastro()">
+        <input name="nome" type="text" placeholder="NOME *" required />
+        <div id="msgemail" class="msg"></div>
+        <input name="email" type="text" placeholder="EMAIL *" required />
+        <input name="telefone" type="text" placeholder="TELEFONE" />
+        <div id="msgsenha" class="msg"></div>
+        <input
+          name="senha"
+          type="password"
+          placeholder="CRIE UMA SENHA COM NO MINÍMO 8 CARACTERES *"
+          required
+        />
+        <div id="msgconfsenha" class="msg"></div>
+        <input
+          name="confirmasenha"
+          type="password"
+          placeholder="REPITA A SENHA *"
+          required
+        />
+        <input type="submit" value="CONFIRMAR" />
+      </form>
+      <h3>
+        Após a confirmação será enviado um link de ativação na conta do seu
+        e-mail
+      </h3>
+    </section>
     <aside class="right-container">
       <img src="img/cel.png" />
     </aside>

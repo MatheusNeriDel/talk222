@@ -25,36 +25,18 @@
         <li><a href="" class="fa fa-google"></a></li>
       </ul>
     </header>
-    <content class="left-container">
-      <div>
-        <h1>Se cadastrar é muito fácil e rápido</h1>
-        <!-- modificar para login -->
-        <h3>Só vai levar um minutinho</h3>
-        <p>Campos obrigatŕios estão marcados com *</p>
-        <form name="cadastro" onsubmit="return validarFormulario()">
-          <input name="nome" type="text" placeholder="NOME*" required />
-          <input name="email" type="text" placeholder="EMAIL*" required />
-          <input name="telefone" type="text" placeholder="TELEFONE" />
-          <input
-            name="senha"
-            type="password"
-            placeholder="CRIE UMA SENHA COM NO MINÍMO 8 CARACTERES*"
-            required
-          />
-          <input
-            name="confirmasenha"
-            type="password"
-            placeholder="REPITA A SENHA*"
-            required
-          />
-          <input type="submit" value="CONFIRMAR" />
-        </form>
-        <h3>
-          Após a confirmação será enviado um link de ativação na conta do seu
-          email
-        </h3>
-      </div>
-    </content>
+    <section class="left-container">
+      <header>
+        <h1>Entre com a sua conta TALK222</h1>
+        <h3>Basta informar seus e-mail e senha</h3>
+      </header>
+      <form name="login" onsubmit="return validarFormLogin()">
+        <div id="msgemail" class="msg"></div>
+        <input name="email" type="text" placeholder="EMAIL" required />
+        <input name="senha" type="password" placeholder="SENHA" required />
+        <input type="submit" value="ENTRAR" />
+      </form>
+    </section>
     <aside class="right-container">
       <img src="img/cel.png" />
     </aside>
