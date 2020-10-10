@@ -182,3 +182,70 @@ p{
 	color: #FAFAD2;
 	font-family: Roboto-Regular;
 }
+
+.contactsMenu{
+  overflow: hidden;
+  margin-top: 5%;
+  background-color: #8CCDEA;
+  float: left;
+  height: 60vh;
+  width: 30%;
+  margin-left: 5%;
+  border-radius: 50px;
+}
+
+.chatRight{
+  float: right;
+  margin-top: 5%;
+  width: 55%;
+  margin-right: 5%;
+  height: 60vh;
+}
+
+.chatDisplay{
+  overflow: hidden;
+  background-color: #8CCDEA;
+  border-radius: 50px;
+  height: 80%;
+  width: 100%;
+}
+
+.chatBox{
+  margin-top: 3%;
+  background-color: #EEE;
+  float: right;
+  height: 15%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.profile{
+  display: flex;
+  height: 9vh;
+  background-color: #EEE;
+  border-radius: 40px;
+  padding-left: 5vh;
+}
+
+.profileInfo{
+  font-family: Roboto-Regular;
+  margin-left: 3vh;
+}
+
+.profile h4{
+  color: gray;
+}
+
+.profile h5{
+  color: black;
+}
+
+.profile img{
+  height: 80%;
+  border-radius: 50px;
+  width: auto;
+  margin-top: 1vh;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
