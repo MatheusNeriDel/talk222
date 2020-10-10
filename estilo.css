@@ -18,7 +18,7 @@ h1 {
   font-family: Roboto-Regular;
 }
 
-h2{
+h2 {
   color: #4280b9;
   font-family: Roboto-Regular;
 }
@@ -28,11 +28,10 @@ h3 {
   font-family: Roboto-Regular;
 }
 
-h4{
+h4 {
   color: #4280b9;
   font-family: Roboto-Regular;
 }
-
 
 ul {
   list-style-type: none;
@@ -72,7 +71,12 @@ li a:hover {
   padding-left: 3%;
 }
 
-.cadastroForm input{
+form {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+form input {
   display: block;
   width: 65%;
   height: 32px;
@@ -90,17 +94,35 @@ li a:hover {
   outline: 0;
 }
 
-.cadastroForm input[type="submit"] {
+form input[type="submit"] {
   width: 20%;
   padding-left: 0.2%;
 }
 
-.cadastroForm input:hover,input:focus{
+form input:hover,
+input:focus {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   border-color: white;
 }
 
+textarea.texto {
+  display: block;
+  width: 65%;
+  height: 100px;
+  margin-bottom: 1.5%;
+  background-color: #2d1b70;
+  border-style: solid;
+  border-color: #2c2b77;
+  border-radius: 20px;
+  color: #eeeeee;
+  padding-left: 2%;
+  font-weight: bold;
+  font-family: Roboto-Regular;
+  font-size: 10px;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
 
 .navbar {
   padding-top: 0.5%;
@@ -129,63 +151,63 @@ img {
   height: auto;
 }
 
-.tela-inicial{
-	border-style:solid;
-	border-radius:10px;
-	border-width:3px;
-	border-color: white;
+.tela-inicial {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: white;
 }
 
-.usuario{
-	border-bottom-color: white;
-	border-style: solid;
-	border-width: 0 0 2px 0;
+.usuario {
+  border-bottom-color: white;
+  border-style: solid;
+  border-width: 0 0 2px 0;
 }
 
-.contato{
-	border-bottom-color: white;
-	border-style: solid;
-	border-width: 0 0 2px 0;
+.contato {
+  border-bottom-color: white;
+  border-style: solid;
+  border-width: 0 0 2px 0;
 }
-.contato h3, .contato p{
-	padding-left:12%;
-}
-
-.exemplo-conversa{
-	border-style:solid;
-	border-radius:10px;
-	border-width:3px;
-	border-color: white;
-	padding-bottom:1%;
-
-}
-.exemplo-conversa div{
-	margin-top:1%;
-	border-style:solid;
-	border-radius:20px;
-	border-width:1px;
-	border-color: white;
+.contato h3,
+.contato p {
+  padding-left: 12%;
 }
 
-p{
-	color: white;
-	font-family: Roboto-Regular;
+.exemplo-conversa {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: white;
+  padding-bottom: 1%;
+}
+.exemplo-conversa div {
+  margin-top: 1%;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: white;
 }
 
-.pUsuario{
-	color: #E0FFFF;
-	font-family: Roboto-Regular;
+p {
+  color: white;
+  font-family: Roboto-Regular;
 }
 
-.pDestinatario{
-	color: #FAFAD2;
-	font-family: Roboto-Regular;
+.pUsuario {
+  color: #e0ffff;
+  font-family: Roboto-Regular;
 }
 
-.contactsMenu{
+.pDestinatario {
+  color: #fafad2;
+  font-family: Roboto-Regular;
+}
+
+.contactsMenu {
   overflow: hidden;
   margin-top: 5%;
-  background-color: #8CCDEA;
+  background-color: #8ccdea;
   float: left;
   height: 60vh;
   width: 30%;
@@ -193,7 +215,7 @@ p{
   border-radius: 50px;
 }
 
-.chatRight{
+.chatRight {
   float: right;
   margin-top: 5%;
   width: 55%;
@@ -201,9 +223,9 @@ p{
   height: 60vh;
 }
 
-.chatDisplay{
+.chatDisplay {
   overflow: hidden;
-  background-color: #8CCDEA;
+  background-color: #8ccdea;
   border-radius: 50px;
   height: 80%;
   width: 100%;
@@ -216,9 +238,9 @@ p{
   background: transparent;
 }
 
-.chatBox{
+.chatBox {
   margin-top: 3%;
-  background-color: #EEE;
+  background-color: #eee;
   float: right;
   height: 15%;
   width: 100%;
@@ -229,10 +251,11 @@ p{
   border-width: 0px;
 }
 
-.profile{
+
+.profile {
   display: flex;
   height: 9vh;
-  background-color: #EEE;
+  background-color: #eee;
   border-radius: 40px;
   padding-left: 5vh;
   border-color: gray;
@@ -240,21 +263,21 @@ p{
   border-width: 1px;
 }
 
-.profileInfo{
+.profileInfo {
   font-family: Roboto-Regular;
   margin-left: 3vh;
 }
 
-.profile h4{
+.profile h4 {
   color: gray;
 }
 
-.profile h5{
+.profile h5 {
   color: black;
   margin-bottom: 5%;
 }
 
-.profile img{
+.profile img {
   height: 80%;
   border-radius: 50px;
   width: auto;
