@@ -213,6 +213,13 @@ p {
   width: 30%;
   margin-left: 5%;
   border-radius: 50px;
+  overflow: hidden;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
 
 .chatRight {
@@ -245,6 +252,8 @@ p {
   height: 15%;
   width: 100%;
   border-radius: 50px;
+  font-family: Roboto-Regular;
+  font-size:22px;
 }
 
 .chatBox input:focus{
@@ -306,4 +315,27 @@ p {
 .selfMessage{
   text-align: right;
   margin-right: 3%;
+}
+
+.contacts{
+  margin-top: 5%;
+  margin-left: 10%;
+  letter-spacing: 0.1em;
+}
+
+.contacts h4{
+  color: black;
+}
+
+.contacts h4 span {
+  background-color:#EEE;
+  padding: 1%;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+}
+
+.contato{
+  border-bottom-width: 0px;
 }
