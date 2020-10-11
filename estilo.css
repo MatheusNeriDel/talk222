@@ -185,21 +185,21 @@ img {
 
 .tela-inicial {
   border-style: solid;
-  border-radius: 10px;
-  border-width: 3px;
+  border-radius: 1vh;
+  border-width: 0.3vh;
   border-color: white;
 }
 
 .usuario {
   border-bottom-color: white;
   border-style: solid;
-  border-width: 0 0 2px 0;
+  border-width: 0 0 0.2vh 0;
 }
 
 .contato {
   border-bottom-color: white;
   border-style: solid;
-  border-width: 0 0 2px 0;
+  border-width: 0 0 0.2vh 0;
 }
 .contato h3,
 .contato p {
@@ -244,10 +244,11 @@ p {
   height: 60vh;
   width: 30%;
   margin-left: 5%;
-  border-radius: 50px;
+  border-radius: 5vh;
   overflow: hidden;
   overflow: scroll;
   overflow-x: hidden;
+  scrollbar-width: none;
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -265,12 +266,13 @@ p {
 .chatDisplay {
   overflow: hidden;
   background-color: #8ccdea;
-  border-radius: 50px;
+  border-radius: 5vh;
   height: 80%;
   width: 100%;
   overflow: hidden;
   overflow: scroll;
   overflow-x: hidden;
+  scrollbar-width: none;
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -283,9 +285,9 @@ p {
   float: right;
   height: 15%;
   width: 100%;
-  border-radius: 50px;
+  border-radius: 5vh;
   font-family: Roboto-Regular;
-  font-size:22px;
+  font-size:2.2vh;
 }
 
 .chatBox input:focus{
@@ -297,11 +299,11 @@ p {
   display: flex;
   height: 9vh;
   background-color: #eee;
-  border-radius: 40px;
+  border-radius: 4vh;
   padding-left: 5vh;
   border-color: gray;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0.1vh;
 }
 
 .profileInfo {
@@ -313,22 +315,24 @@ p {
 
 .profileInfo h4 {
   color: gray;
-  margin-bottom: 0px;
+  margin-top: 5%;
+  margin-bottom: 0;
 }
 
 .profileInfo h5 {
-  margin-top: 1vh;
+  margin-top: 0.1vh;
+  margin-bottom: 5%;
   color: black;
 }
 
 .profile img {
   height: 80%;
-  border-radius: 50px;
+  border-radius: 5vh;
   width: auto;
   margin-top: 1vh;
   border-style: solid;
   border-color: black;
-  border-width: 1px;
+  border-width: 0.1vh;
 }
 
 .chatMessages h4{
@@ -341,10 +345,10 @@ p {
 .chatMessages h4 span { 
   background-color:#EEE;
   padding: 1%;
-  border-radius: 50px;
+  border-radius: 5vh;
   border-style: solid;
   border-color: gray;
-  border-width: 1px;
+  border-width: 0.1vh;
 }
 
 .selfMessage{
@@ -371,10 +375,10 @@ p {
 .contacts h4 span {
   background-color:#EEE;
   padding: 1%;
-  border-radius: 50px;
+  border-radius: 5vh;
   border-style: solid;
   border-color: gray;
-  border-width: 1px;
+  border-width: 0.1vh;
 }
 
 .contato{
