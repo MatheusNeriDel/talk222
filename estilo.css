@@ -53,11 +53,14 @@ li a {
   display: block;
   color: #4280b9;
   text-align: center;
-  padding: 30px 32px;
   text-decoration: none;
-  font-size: 12px;
   font-weight: bold;
   font-family: Roboto-Regular;
+}
+
+li a.item {
+  font-size: 12px;
+  padding: 30px 32px;
 }
 
 li a:hover {
