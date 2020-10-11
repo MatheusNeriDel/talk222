@@ -273,17 +273,20 @@ p {
 }
 
 .profileInfo {
+  display: flex;
+  flex-direction: column;
   font-family: Roboto-Regular;
   margin-left: 3vh;
 }
 
-.profile h4 {
+.profileInfo h4 {
   color: gray;
+  margin-bottom: 0px;
 }
 
-.profile h5 {
+.profileInfo h5 {
+  margin-top: 1vh;
   color: black;
-  margin-bottom: 5%;
 }
 
 .profile img {
@@ -325,6 +328,12 @@ p {
 
 .contacts h4{
   color: black;
+  margin-bottom: 0px;
+}
+
+.contacts h6{
+  color: black;
+  margin-top: 1vh;
 }
 
 .contacts h4 span {
